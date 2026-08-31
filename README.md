@@ -10,6 +10,31 @@ The pipeline includes an interactive Streamlit web dashboard alongside a headles
 
 ---
 
+## 📸 Platform Screenshots & Dashboard Overview
+
+<div align="center">
+
+### 🖥️ Dashboard & Real-Time Analytics
+| Hardware Diagnostics & Setup | Dataset Inspector & Filtering |
+| :---: | :---: |
+| <img src="screenshots/01_hardware_setup.png" width="100%" alt="Hardware Diagnostics"> | <img src="screenshots/02_dataset_inspector.png" width="100%" alt="Dataset Exploration"> |
+
+| Batch Inference Execution | Sentiment Distribution & KPIs |
+| :---: | :---: |
+| <img src="screenshots/03_batch_inference.png" width="100%" alt="Batch Inference Monitoring"> | <img src="screenshots/04_sentiment_distribution.png" width="100%" alt="Sentiment Distribution Charts"> |
+
+| Keyword & Lexical Analytics | Confusion Matrix & Benchmark |
+| :---: | :---: |
+| <img src="screenshots/05_keyword_analytics.png" width="100%" alt="Top Keywords by Sentiment"> | <img src="screenshots/06_confusion_matrix.png" width="100%" alt="Confusion Matrix & Metrics"> |
+
+| Single-Record Playground | Report Generation & Exports |
+| :---: | :---: |
+| <img src="screenshots/07_single_inference.png" width="100%" alt="Realtime Single Inference"> | <img src="screenshots/08_report_exports.png" width="100%" alt="Report Exports & JSON Metrics"> |
+
+</div>
+
+---
+
 ## 🌟 Key Features
 
 * **Universal Hardware Orchestration:** Automatically detects and routes workloads to **NVIDIA CUDA**, **Apple Silicon MPS (Metal)**, or **Host CPU** with platform-specific memory optimizations.
@@ -31,4 +56,13 @@ The pipeline includes an interactive Streamlit web dashboard alongside a headles
 ├── sentiment_pipeline.py          # Batched inference engine & analytical reporting core
 ├── requirements-win.txt           # Windows / CUDA package dependencies
 ├── requirements-mac.txt           # macOS (Apple Silicon M-Series) dependencies
+├── screenshots/                   # UI previews and visual documentation
+│   ├── 01_hardware_setup.png
+│   ├── 02_dataset_inspector.png
+│   ├── 03_batch_inference.png
+│   ├── 04_sentiment_distribution.png
+│   ├── 05_keyword_analytics.png
+│   ├── 06_confusion_matrix.png
+│   ├── 07_single_inference.png
+│   └── 08_report_exports.png
 └── reports/                       # Auto-generated analytical reports & JSON summaries
