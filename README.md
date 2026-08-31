@@ -16,15 +16,15 @@ The pipeline includes an interactive Streamlit web dashboard alongside a headles
 
 | ⚙️ 1. System Status & Hardware Accelerator Diagnostics | 🤖 2. Model Loader & Device Configuration |
 | :---: | :---: |
-| <img src="docs/assets/01_system_status.png" width="100%" alt="System Status"> | <img src="docs/assets/02_load_model.png" width="100%" alt="Model Loader"> |
+| <img src="docs/01_system_status.png" width="100%" alt="System Status"> | <img src="docs/02_load_model.png" width="100%" alt="Model Loader"> |
 
 | 🔍 3. Dataset Exploration & Dynamic Row Preview | ⚡ 4. Batched Sentiment Inference Engine |
 | :---: | :---: |
-| <img src="docs/assets/03_load_dataset.png" width="100%" alt="Dataset Exploration"> | <img src="docs/assets/04_run_pipeline.png" width="100%" alt="Run Pipeline"> |
+| <img src="docs/03_load_dataset.png" width="100%" alt="Dataset Exploration"> | <img src="docs/04_run_pipeline.png" width="100%" alt="Run Pipeline"> |
 
 | 📊 5. Automated Analytical Report Generation | 📈 6. Comprehensive Metrics & Lexical Analytics |
 | :---: | :---: |
-| <img src="docs/assets/05_generate_report.png" width="100%" alt="Generate Report"> | <img src="docs/assets/06_browse_reports.png" width="100%" alt="Browse Reports"> |
+| <img src="docs/05_generate_report.png" width="100%" alt="Generate Report"> | <img src="docs/06_browse_reports.png" width="100%" alt="Browse Reports"> |
 
 </div>
 
