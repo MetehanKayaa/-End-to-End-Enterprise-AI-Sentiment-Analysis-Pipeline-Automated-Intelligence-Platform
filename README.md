@@ -10,25 +10,21 @@ The pipeline includes an interactive Streamlit web dashboard alongside a headles
 
 ---
 
-## 📸 Platform Interface & Analytics Gallery
+## 📸 Platform Interface & Live Application Flow
 
 <div align="center">
 
-| ⚙️ Hardware Diagnostics & Model Setup | 🔍 Dataset Exploration & Preview |
+| ⚙️ 1. System Status & Hardware Accelerator Diagnostics | 🤖 2. Model Loader & Device Configuration |
 | :---: | :---: |
-| <img src="docs/assets/01_hardware_setup.png" width="100%" alt="Hardware Diagnostics"> | <img src="docs/assets/02_dataset_inspector.png" width="100%" alt="Dataset Exploration"> |
+| <img src="docs/assets/01_system_status.png" width="100%" alt="System Status"> | <img src="docs/assets/02_load_model.png" width="100%" alt="Model Loader"> |
 
-| ⚡ Batched Inference Execution | 📊 Sentiment Distribution & KPIs |
+| 🔍 3. Dataset Exploration & Dynamic Row Preview | ⚡ 4. Batched Sentiment Inference Engine |
 | :---: | :---: |
-| <img src="docs/assets/03_batch_inference.png" width="100%" alt="Batch Inference Monitoring"> | <img src="docs/assets/04_sentiment_distribution.png" width="100%" alt="Sentiment Distribution Charts"> |
+| <img src="docs/assets/03_load_dataset.png" width="100%" alt="Dataset Exploration"> | <img src="docs/assets/04_run_pipeline.png" width="100%" alt="Run Pipeline"> |
 
-| 🔤 Keyword & Lexical Analytics | 🎯 Confusion Matrix & Benchmarking |
+| 📊 5. Automated Analytical Report Generation | 📈 6. Comprehensive Metrics & Lexical Analytics |
 | :---: | :---: |
-| <img src="docs/assets/05_keyword_analytics.png" width="100%" alt="Top Keywords by Sentiment"> | <img src="docs/assets/06_confusion_matrix.png" width="100%" alt="Confusion Matrix & Metrics"> |
-
-| 💬 Real-Time Single Phrase Playground | 📁 Exported Artifacts & JSON Reports |
-| :---: | :---: |
-| <img src="docs/assets/07_single_inference.png" width="100%" alt="Realtime Single Inference"> | <img src="docs/assets/08_report_exports.png" width="100%" alt="Report Exports & JSON Metrics"> |
+| <img src="docs/assets/05_generate_report.png" width="100%" alt="Generate Report"> | <img src="docs/assets/06_browse_reports.png" width="100%" alt="Browse Reports"> |
 
 </div>
 
@@ -48,15 +44,13 @@ The pipeline includes an interactive Streamlit web dashboard alongside a headles
 
 ```text
 ├── docs/
-│   └── assets/                    # Project screenshots and visual documentation
-│       ├── 01_hardware_setup.png
-│       ├── 02_dataset_inspector.png
-│       ├── 03_batch_inference.png
-│       ├── 04_sentiment_distribution.png
-│       ├── 05_keyword_analytics.png
-│       ├── 06_confusion_matrix.png
-│       ├── 07_single_inference.png
-│       └── 08_report_exports.png
+│   └── assets/                    # Platform screenshots and documentation media
+│       ├── 01_system_status.png
+│       ├── 02_load_model.png
+│       ├── 03_load_dataset.png
+│       ├── 04_run_pipeline.png
+│       ├── 05_generate_report.png
+│       └── 06_browse_reports.png
 ├── app.py                         # Streamlit multi-page dashboard & visualization engine
 ├── hardware_preparation.py        # Compute accelerator detection (CUDA / MPS / CPU)
 ├── hugging_face_authentication.py # Secure Hugging Face Hub token & credential manager
